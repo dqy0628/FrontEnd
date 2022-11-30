@@ -1,0 +1,29 @@
+body{
+	background-image: url("img/动漫壁纸.jpg");
+}
+
+#头标题{
+	color: red;
+}
+.头{
+	color: #DEB887;
+	background-color: rgb(157, 170, 15,0.5);
+}
+.体{
+	color: 	#AFEEEE;
+}
+a:link{
+	color: lightcoral;
+}
+a:hover{
+	color: #AFEEEE;
+}
+a:visited{
+	color: red;
+}
+a:active{
+	color: yellow;
+}
+.体b{
+	color: yellow;
+}
