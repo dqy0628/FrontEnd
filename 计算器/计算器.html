@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>计算器</title>
+		<link rel="stylesheet" type="text/css" href="计算器.css"/>
+		
+		<style>
+			#title{
+				text-align: center;
+				color: red;
+				font-size: 50px;
+				margin-top: 0px;
+			}
+			body{
+				background-image: url("木头.jpg");
+			}
+		</style>
+		
+	</head>
+	<body>
+		
+		<h2 id="title">计算器</h2>
+		<!-- 主体用HTML的表格写的 -->
+		<table border="2" align="center">
+			<tr>
+				<td id="show" colspan="4" style="height: 100px;">0</td>
+			</tr>
+			<tr>
+				<td id="clear" style="width: 200px; height: 100px;">C</td>
+				<td class="number" style="width: 200px; height: 100px; background-color: rgb(0, 170, 255,0.8); color: gold;">/</td>
+				<td class="number" style="width: 200px; height: 100px; background-color: rgb(0, 170, 255,0.8); color: gold;">*</td>
+				<td id="back" style="width: 200px; height: 100px; background-color: rgb(0, 170, 255,0.8); color: green;">退格</td>
+			</tr>
+			<tr>
+				<td class="number" style="width: 200px; height: 100px;">7</td>
+				<td class="number" style="width: 200px; height: 100px;">8</td>
+				<td class="number" style="width: 200px; height: 100px;">9</td>
+				<td class="number" style="width: 200px; height: 100px; background-color: rgb(0, 170, 255,0.8); color: gold;">-</td>
+				
+			</tr>
+			<tr>
+				<td class="number" style="width: 200px; height: 100px;">4</td>
+				<td class="number" style="width: 200px; height: 100px;">5</td>
+				<td class="number" style="width: 200px; height: 100px;">6</td>
+				<td class="number" style="width: 200px; height: 100px; background-color: rgb(0, 170, 255,0.8); color: gold;">+</td>
+				
+			</tr>
+			<tr>
+				<td class="number" style="width: 200px; height: 100px;">1</td>
+				<td class="number" style="width: 200px; height: 100px;">2</td>
+				<td class="number" style="width: 200px; height: 100px;">3</td>
+				<td id="total" rowspan="2">=</td>
+			</tr>
+			<tr>
+				<td class="number" style="width: 200px; height: 100px;">%</td>
+				<td class="number" style="width: 200px; height: 100px;">0</td>
+				<td class="number" style="width: 200px; height: 100px;">.</td>
+			</tr>
+		</table>
+		<!-- 下面是HTML5的音频标签，我们还没有学，但和其它标签没什么不同 -->
+		<audio src="键盘按键音效_耳聆网_[声音ID：36303].wav" id="sound"></audio>
+		<!-- 引入外部js文件 -->
+		<script src="计算器.js" type="text/javascript"></script>
+	</body>
+</html>
